@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;600;700&family=Poppins:wght@500;600;700;800&family=Rufina:wght@400;700&family=Work+Sans:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --heading: rgb(0 10 45);
+  --para: #777777;
+  --para-tint: #e4e4e4;
+  --third: #fff;
+  --helper: #8490ff;
+  --helper-tint: #f3f4ff;
+  --bg: rgb(249 249 255);
+  --gradient: linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 252) 100%);
+  --shadpw: 0px 0px 20px 0px rgb(132 144 255 / 20%);
+}
+
+
+html {
+  font-size: 62.5%;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Rufina", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: var(--heading);
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+p {
+  color: var(--para);
+  line-height: 1.6;
+  font-size: 1.8rem;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  background: -webkit-linear-gradient(
+    0deg,
+    rgb(132 144 255) 0%,
+    rgb(98 189 252) 100%
+  );
+
+  padding: 1.6rem 3.2rem;
+  border: none;
+  color: rgb(255 255 255);
+  display: inline-block;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn:hover {
+  box-shadow: 0px 20px 20px 0px rgb(132 144 255 / 30%);
+  color: rgb(255 255 255);
+}
+
+.section {
+  padding: 9rem 0;
+}
+
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9rem;
+}
+
+.grid-two-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-four-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* ===========================================
+Header Section Start
+======================================= */
+
+.header {
+  padding: 0 4.8rem;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg);
+}
+
+.header .logo {
+  height: 3rem;
+}
+
+.navbar-lists {
+  display: flex;
+  gap: 4.8rem;
+  list-style: none;
+}
+
+.navbar-link:link,
+.navbar-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #212529;
+  transition: all 0.3s;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+  color: var(--helper);
+}
+
+
+
+/* ===========================================
+Hero  Section Start
+======================================= */
+
+.section-hero {
+  background: var(--bg);
+}
+
+.section-hero-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero-top-data {
+  text-transform: uppercase;
+  color: var(--heading);
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--helper);
+}
+
+.hero-heading {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 6.4rem;
+}
+
+.hero-para {
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+  max-width: 60rem;
+}
+
+.section-hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  max-width: 80%;
+}

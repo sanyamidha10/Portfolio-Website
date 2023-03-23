@@ -45,7 +45,7 @@ h1 {
 p {
   color: var(--para);
   line-height: 1.6;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 
 }
 
@@ -243,5 +243,17 @@ Hero  Section Start
 .bio-image img{
   width: 70%;
   box-shadow: -2rem -2rem 0 0 var(--helper);
+  display: inline-block;
+}
+
+.bio-data-stats{
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+  gap: 3rem;
+
+}
+
+.bio-progress-bar{
 
 }

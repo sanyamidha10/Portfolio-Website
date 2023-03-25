@@ -409,12 +409,10 @@ h3{
   text-decoration: none;
 }
 
-.p-btn:hover{
-  transform: translateY(-1rem);
-
-}
-
 .p-btn-active{
   transform: translateY(-1rem);
 }
 
+.p-image-not-active{
+  display: none;
+}

@@ -87,6 +87,7 @@ li {
 
 .section {
   padding: 9rem 0;
+  
 }
 
 .container {
@@ -415,4 +416,32 @@ h3{
 
 .p-image-not-active{
   display: none;
+}
+
+/*========================
+  Work counter
+========================== */
+
+.section-work-data
+{
+  display: flex;
+  text-align: center;
+  color: white;
+  transition: all 0.7s linear;
+
+}
+
+.section-work-data .container{
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.counter-numbers{
+  font-size: 4rem;
+}
+
+.section-work-data p{
+  color: white;
+  text-transform: capitalize;
 }

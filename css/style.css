@@ -426,15 +426,16 @@ h3{
 {
   display: flex;
   text-align: center;
-  color: white;
   transition: all 0.7s linear;
+  background: var(--gradient);
 
 }
 
 .section-work-data .container{
   justify-content: center;
   align-items: center;
-  gap: 10rem;
+  gap: 18rem;
+  color: white;
 }
 
 .counter-numbers{

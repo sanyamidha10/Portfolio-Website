@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,11 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
     <script defer src="index.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
 </head>
+
 <body>
     <header class="header">
         <img src="images/logo.png" alt="main logo" class="logo">
@@ -31,22 +36,23 @@
             <div class="container grid grid-two-col">
 
                 <!-- left col -->
-                    <div class="section-hero-data">
-                        <p class="hero-top-data">This is me</p>
-                        <h1 class="hero-heading">Sanya Midha</h1>
-                        <p class="hero-para">
-                            I'm Sanya Midha. A Ful stack developer, youtuber and freelancer. A full stack Developer, youtuber and freelancer.
-                        </p>
-                        <div>
-                            <a href="" class="btn hireme-btn">Hire me</a>
-                        </div>
+                <div class="section-hero-data">
+                    <p class="hero-top-data">This is me</p>
+                    <h1 class="hero-heading">Sanya Midha</h1>
+                    <p class="hero-para">
+                        I'm Sanya Midha. A Full stack developer, youtuber and freelancer. A full stack Developer,
+                        youtuber and freelancer.
+                    </p>
+                    <div>
+                        <a href="" class="btn hireme-btn">Hire me</a>
+                    </div>
 
-                    </div>
-                    
+                </div>
+
                 <!-- right col -->
-                    <div class="section-hero-image">
-                        <img src="images/hero.jpg" alt="" class="hero-img">
-                    </div>
+                <div class="section-hero-image">
+                    <img src="images/hero.jpg" alt="" class="hero-img">
+                </div>
 
             </div>
         </section>
@@ -55,141 +61,147 @@
     <!-- =================================
         Bio Data Section
     ====================================== -->
-        <section class="section-biodata section">
-            <div class="container grid grid-two-col">
-                <!-- left div -->
-                <div class="bio-image">
-                    <img src="images/biodata.jpg" alt="my bio data image">
-                </div>
-                <!-- right div -->
-                <div class="bio-data">
-                    <h2 class="common-heading">My Bio-Data</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vero molestiae iure et sit fugiat quis? Ratione cumque fuga hic eos omnis facilis voluptatem, earum voluptatibus aspernatur deleniti soluta aperiam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, harum accusamus doloribus minus dolorum esse! Possimus sunt minima voluptates soluta necessitatibus.</p>
-                    <br />
-                    <p>
-                        Nam, harum accusamus doloribus minus dolorum esse! Possimus sunt minima voluptates soluta necessitatibus. Nam, harum accusamus doloribus minus dolorum esse!
-                    </p>
-
-                    <div class="bio-data-stats">
-                        <div class="bio-stats">
-                            <h3>Design</h3>
-                            <div class="bio-progress-bar">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                        <div class="bio-stats">
-                            <h3>HTML</h3>
-                            <div class="bio-progress-bar bio-progress-2">
-                                <span>95%</span>
-                            </div>
-                        </div>
-                        <div class="bio-stats">
-                            <h3>CSS</h3>
-                            <div class="bio-progress-bar bio-progress-3">
-                                <span>85%</span>
-                            </div>
-                        </div>
-                        <div class="bio-stats">
-                            <h3>JavaScript</h3>
-                            <div class="bio-progress-bar bio-progress-4">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                        <div class="bio-stats">
-                            <h3>Django</h3>
-                            <div class="bio-progress-bar bio-progress-5">
-                                <span>85%</span>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="bio-data-btn">
-                        <a href="#" class="btn">Download CV</a>
-                    </div>
-                </div>  
+    <section class="section-biodata section">
+        <div class="container grid grid-two-col">
+            <!-- left div -->
+            <div class="bio-image">
+                <img src="images/biodata.jpg" alt="my bio data image">
             </div>
-        </section>
+            <!-- right div -->
+            <div class="bio-data">
+                <h2 class="common-heading">My Bio-Data</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vero molestiae iure et sit fugiat
+                    quis? Ratione cumque fuga hic eos omnis facilis voluptatem, earum voluptatibus aspernatur deleniti
+                    soluta aperiam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, harum accusamus
+                    doloribus minus dolorum esse! Possimus sunt minima voluptates soluta necessitatibus.</p>
+                <br />
+                <p>
+                    Nam, harum accusamus doloribus minus dolorum esse! Possimus sunt minima voluptates soluta
+                    necessitatibus. Nam, harum accusamus doloribus minus dolorum esse!
+                </p>
 
-        <!-- =================================
+                <div class="bio-data-stats">
+                    <div class="bio-stats">
+                        <h3>Design</h3>
+                        <div class="bio-progress-bar">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>HTML</h3>
+                        <div class="bio-progress-bar bio-progress-2">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>CSS</h3>
+                        <div class="bio-progress-bar bio-progress-3">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>JavaScript</h3>
+                        <div class="bio-progress-bar bio-progress-4">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>Django</h3>
+                        <div class="bio-progress-bar bio-progress-5">
+                            <span>85%</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="bio-data-btn">
+                    <a href="#" class="btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================================
         Portfolio Section
     ====================================== -->
-            <section class="section section-portfolio" id="portfolio-section">
-                <div class="container">
-                    <h2         class="common-heading">Latest Works
-                    </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad esse asperiores quam, qui cum quisquam maiores nemo? Nobis, minima. Magni voluptates assumenda eveniet soluta recusandae distinctio! Harum ipsum officiis vero.
-                    </p>
+    <section class="section section-portfolio" id="portfolio-section">
+        <div class="container">
+            <h2 class="common-heading">Latest Works
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad esse asperiores quam, qui cum quisquam
+                maiores nemo? Nobis, minima. Magni voluptates assumenda eveniet soluta recusandae distinctio! Harum
+                ipsum officiis vero.
+            </p>
+        </div>
+
+        <div class="p-btns">
+            <div class="btn p-btn" data-btn-num="1">Website</div>
+            <div class="btn p-btn" data-btn-num="2">Youtube</div>
+            <div class="btn p-btn" data-btn-num="3">Design</div>
+        </div>
+
+        <div class="container grid grid-three-col portfolio-images">
+            <div class="img-overlay p-btn--1">
+
+                <img src="images/folio/1.jpg" alt="my works">
+
+                <div class="overlay">
+                    <a href="" class="common-heading">Project 1</a>
                 </div>
 
-                <div class="p-btns">
-                    <div class="btn p-btn" data-btn-num="1">Website</div>
-                    <div class="btn p-btn" data-btn-num="2">Youtube</div>
-                    <div class="btn p-btn" data-btn-num="3">Design</div>
+            </div>
+
+            <div class="img-overlay p-btn--2">
+
+                <img src="images/folio/4.jpg" alt="my works">
+
+                <div class="overlay">
+                    <a href="" class="common-heading">Project 2</a>
                 </div>
 
-                <div class="container grid grid-three-col portfolio-images">
-                    <div class="img-overlay p-btn--1">
+            </div>
 
-                        <img src="images/folio/1.jpg" alt="my works">
+            <div class="img-overlay p-btn--3">
 
-                        <div class="overlay">
-                            <a href="" class="common-heading">Project 1</a>
-                        </div>
+                <img src="images/folio/3.jpg" alt="my works">
 
-                    </div>
-
-                    <div class="img-overlay p-btn--2">
-
-                        <img src="images/folio/4.jpg" alt="my works">
-
-                        <div class="overlay">
-                            <a href="" class="common-heading">Project 2</a>
-                        </div>
-
-                    </div>
-
-                    <div class="img-overlay p-btn--3">
-
-                        <img src="images/folio/3.jpg" alt="my works">
-
-                        <div class="overlay">
-                            <a href="" class="common-heading">Project 3</a>
-                        </div>
-
-                    </div>
-
-                    <div class="img-overlay p-btn--1 p-btn--2">
-
-                        <img src="images/folio/4.jpg" alt="my works">
-
-                        <div class="overlay">
-                            <a href="" class="common-heading">Project 4</a>
-                        </div>
-
-                    </div>
-
-                    <div class="img-overlay p-btn--1">
-
-                        <img src="images/folio/5.jpg" alt="my works">
-
-                        <div class="overlay">
-                            <a href="" class="common-heading">Project 5</a>
-                        </div>
-
-                    </div>
-
-                    <div class="img-overlay p-btn--2">
-
-                        <img src="images/folio/1.jpg" alt="my works">
-
-                        <div class="overlay">
-                            <a href="" class="common-heading">Project 6</a>
-                        </div>
-
-                    </div>
+                <div class="overlay">
+                    <a href="" class="common-heading">Project 3</a>
                 </div>
-            </section>
+
+            </div>
+
+            <div class="img-overlay p-btn--1 p-btn--2">
+
+                <img src="images/folio/4.jpg" alt="my works">
+
+                <div class="overlay">
+                    <a href="" class="common-heading">Project 4</a>
+                </div>
+
+            </div>
+
+            <div class="img-overlay p-btn--1">
+
+                <img src="images/folio/5.jpg" alt="my works">
+
+                <div class="overlay">
+                    <a href="" class="common-heading">Project 5</a>
+                </div>
+
+            </div>
+
+            <div class="img-overlay p-btn--2">
+
+                <img src="images/folio/1.jpg" alt="my works">
+
+                <div class="overlay">
+                    <a href="" class="common-heading">Project 6</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     <!-- =================================
         Work counter Section
@@ -228,67 +240,112 @@
     <!-- =================================
          service Section
     ====================================== -->
-        <section class="section section-services">
-            <div class="container">
-                <h2 class="common-heading">Services Offers</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ullam recusandae praesentium nulla, porro dolorem distinctio laboriosam eligendi</p>
+    <section class="section section-services">
+        <div class="container">
+            <h2 class="common-heading">Services Offers</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ullam recusandae praesentium nulla, porro
+                dolorem distinctio laboriosam eligendi</p>
+        </div>
+
+        <!-- Services Offers card -->
+        <div class="container grid grid-three-col">
+            <div class="service-box">
+                <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
+                <h3>Web Design</h3>
+                <p>
+                    "It is not because things are difficult that we do not dare; it is because we do not dare that they
+                    are difficult"
+                </p>
             </div>
 
-            <!-- Services Offers card -->
-            <div class="container grid grid-three-col">
-                <div class="service-box">
-                    <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
-                    <h3>Web Design</h3>
-                    <p>
-                        "It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult"
-                    </p>
-                </div>
-
-                <div class="service-box">
-                    <ion-icon name="camera-outline" class="service-icon"></ion-icon>
-                    <h3>Photography</h3>
-                    <p>
-                        "It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult"
-                    </p>
-                </div>
-
-                <div class="service-box">
-                    <ion-icon name="apps-sharp" class="service-icon"></ion-icon>
-                    <h3>Mobile Apps</h3>
-                    <p>
-                        "It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult"
-                    </p>
-                </div>
-
-                <div class="service-box">
-                    <ion-icon name="globe-sharp" class="service-icon"></ion-icon>
-                    <h3>Apps Interface</h3>
-                    <p>
-                        "It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult"
-                    </p>
-                </div>
-
-                <div class="service-box">
-                    <ion-icon name="phone-portrait-sharp" class="service-icon"></ion-icon>
-                    <h3>Mobile Apps</h3>
-                    <p>
-                        "It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult"
-                    </p>
-                </div>
-
-                <div class="service-box">
-                    <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
-                    <h3>Web Design</h3>
-                    <p>
-                        "It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult"
-                    </p>
-                </div>
-                
+            <div class="service-box">
+                <ion-icon name="camera-outline" class="service-icon"></ion-icon>
+                <h3>Photography</h3>
+                <p>
+                    "It is not because things are difficult that we do not dare; it is because we do not dare that they
+                    are difficult"
+                </p>
             </div>
 
-        </section>
+            <div class="service-box">
+                <ion-icon name="apps-sharp" class="service-icon"></ion-icon>
+                <h3>Mobile Apps</h3>
+                <p>
+                    "It is not because things are difficult that we do not dare; it is because we do not dare that they
+                    are difficult"
+                </p>
+            </div>
 
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <div class="service-box">
+                <ion-icon name="globe-sharp" class="service-icon"></ion-icon>
+                <h3>Apps Interface</h3>
+                <p>
+                    "It is not because things are difficult that we do not dare; it is because we do not dare that they
+                    are difficult"
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="phone-portrait-sharp" class="service-icon"></ion-icon>
+                <h3>Mobile Apps</h3>
+                <p>
+                    "It is not because things are difficult that we do not dare; it is because we do not dare that they
+                    are difficult"
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
+                <h3>Web Design</h3>
+                <p>
+                    "It is not because things are difficult that we do not dare; it is because we do not dare that they
+                    are difficult"
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =================================
+        Testimonial Section
+    ====================================== -->
+
+    <!-- Swiper -->
+    <section class="section section-testimonial">
+        <div class="container">
+            <h2 class="common-heading">Happy Client Works</h2>
+
+        </div>
+    
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/hero.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/hero.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/hero.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/hero.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/hero.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/hero.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/hero.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/hero.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/hero.jpg" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+</section>
+
+
+  <!-- =================================
+        Javascript Section
+    ====================================== -->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
 </body>
+
+
 </html>

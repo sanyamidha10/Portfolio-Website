@@ -30,8 +30,19 @@ p_btns.addEventListener('click', (e)=>{
         curElem.classList.remove("p-image-not-active");
     })
 
-
-
-
 });
+
+
+// Swiper js code
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    autoplay:{
+        delay: 2500,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
 

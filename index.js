@@ -35,11 +35,11 @@ p_btns.addEventListener('click', (e)=>{
 
 // Swiper js code
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
+    slidesPerView: 2,
     spaceBetween: 30,
-    autoplay:{
-        delay: 2500,
-    },
+    // autoplay:{
+    //     delay: 2500,
+    // },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,

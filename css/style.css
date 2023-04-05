@@ -670,3 +670,40 @@ Freelancing Section
   margin-bottom: 1.5rem;
 }
 
+
+/* ===========================================
+Contact Section
+======================================= */
+.section-contact-main{
+  max-width: 65rem;
+  margin: 0 auto;
+  margin-top: 8rem;
+  transition: all 0.3s linear;
+}
+
+.section-contact-main form{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.section-contact-main .grid{
+  gap: 3rem;
+}
+
+.section-contact-main input,
+.section-contact-main textarea{
+  padding: 1.2rem 1.5rem;
+  border: 0.1rem solid #c9c9c9;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  font-family: "work sans";
+  width: 100%;
+}
+
+.section-contact-main input[type="submit"]{
+  max-width: 30%;
+  border: none;
+}
+
+

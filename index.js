@@ -46,3 +46,17 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 
+// Scroll To Top
+const heroSection = document.querySelector(".section-hero");
+const footerElem = document.querySelector(".section-footer");
+const scrollElem = document.createElement("div");
+scrollElem.classList.add("scrollTop-style");
+
+scrollElem.innerHTML = `<ion-icon name="arrow-up-outline" class="scroll-top"></ion-icon>`
+footerElem.after(scrollElem);
+
+const scrollTop = () =>{
+    heroSection.scrollIntoView({ behavior: "smooth" });
+}
+
+scrollElem.addEventListener("click", scrollTop);
